@@ -1,0 +1,14 @@
+{
+  "version": "0",
+  "id": "sample-event-id",
+  "detail-type": "EC2 Instance State-change Notification",
+  "source": "aws.ec2",
+  "account": "123456789012",
+  "time": "2026-07-24T12:00:00Z",
+  "region": "ap-south-1",
+  "resources": [],
+  "detail": {
+    "instance-id": "i-0123456789abcdef0",
+    "state": "running"
+  }
+}
